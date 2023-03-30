@@ -1,0 +1,66 @@
+Penetration Docker Toolkit
+
+This Docker image has been created to simplify the penetration tester life easier and also to access all required security tools in one place with minimal installation on any device. This docker image is built on a kali Linux base image and runs all the below-mentioned security Tools.
+
+Security Tools:
+
+        nmap
+
+        Metasploit -Framework
+
+        wordlists
+
+        exploitdb
+
+        John the Ripper
+
+        SqlMap
+
+        theHarvester
+
+        Zaproxy
+
+        Beef-Xss
+
+        dirbuster
+
+        netdiscover
+
+        traceroute
+
+        wpscan
+
+        whois
+
+        wifiphisher
+
+        whatweb
+
+        smpt-user-enum
+
+        recon-ng
+
+        hydra
+
+        hping3
+
+        hashcat
+
+        gobuster
+
+        enum4linux
+
+        dnsenum
+
+        burpsuite
+
+        websploit
+
+Setting up a Penetration Docker Image
+
+$ docker pull pberacademy/penetrationdocker  
+$ docker run -it pberacademy/penetrationdocker /bin/bash
+
+Have fun with Penetration Docker images!.
+
+Please write to us your feedback and suggestions: support@pber.in
